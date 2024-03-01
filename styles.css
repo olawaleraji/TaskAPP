@@ -1,0 +1,48 @@
+/* styles.css */
+.task-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.task-container input[type="text"] {
+    padding: 10px;
+    border: 2px solid #b0ccb0; /* Green border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f0f0f0; /* Light grey background */
+    font-size: 18px; /* Larger font size */
+    color: #ff00ff; /* Pink text color */
+    outline: none; /* Remove default outline */
+}
+
+.task-container input[type="text"]::placeholder {
+    color: #00ffff; /* Light blue placeholder text */
+    font-style: italic; /* Italic placeholder text */
+}
+
+button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: #96e096; /* Green button */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    color: #ffffff; /* White text color */
+    font-size: 18px; /* Larger font size */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #8dd3bc; /* Darker green on hover */
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding: 10px;
+}
+
+button.delete-btn {
+    background-color: rgb(175, 100, 100);
+}
